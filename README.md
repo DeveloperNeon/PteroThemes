@@ -16,7 +16,7 @@ Create a file called main.css in /var/www/pterodactyl/resources/scripts
 
 In that file put this text
 
-@import url(https://raw.githubusercontent.com/OreoKitten/PteroThemes/master/latest/!!THEMENAME!!/user.css);
+@import url(https://raw.githubusercontent.com/OreoKitten/PteroThemes/main/latest/!!THEMENAME!!/user.css);
 
 
 After that edit the file index.tsx in /var/www/pterodactyl/resources/scripts
@@ -33,7 +33,7 @@ In the file admin.blade.php in /var/www/pterodactyl/resources/views/layouts/
 
 On line 36 put the text
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/OreoKitten/PteroThemes/master/latest/!!THEMENAME!!/admin.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/OreoKitten/PteroThemes/main/latest/!!THEMENAME!!/admin.css">
 After this build the panel, you can find information of how to do that scroll down
 
 After that just reload your panel and the theme is applied.
@@ -87,22 +87,22 @@ yarn build:production
 
 ## Enola - 1.2.0, 1.2.1, and 1.2.2
 Instructions to install the theme Enola are here
-[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/master/latest/Enola)
+[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Enola)
 ![Preview](./preview/enola.png)
 
 
 ## Twilight - 1.1.3, 1.2.0, 1.2.1, 1.2.2
 Instructions to install the theme Twilight are here
-[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/master/latest/Twilight)
+[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Twilight)
 ![Preview](./preview/twilight.png)
 
 ## Recolor - 1.2.0, 1.2.1, 1.2.2
 This theme is a recolor of the panel that you can edit, more information here
-[Recolor](https://github.com/OreoKitten/PteroThemes/tree/master/latest/Recolor)
+[Recolor](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Recolor)
 
 ## Dracula - 1.2.0, 1.2.1, 1.2.2
 This theme is a recolor of the panel that you can edit, more information here
-[Dracula 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/master/latest/Dracula)
+[Dracula 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Dracula)
 ![Preview](./preview/Dracula.png)
 ![Preview](./preview/Dracula2.png)
 ## If you have suggestions or issues dm me on discord, Lellis#9405
