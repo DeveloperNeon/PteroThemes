@@ -33,7 +33,7 @@ In the file admin.blade.php in /var/www/pterodactyl/resources/views/layouts/
 
 On line 36 put the text
 
-<link rel="stylesheet" href="https://oreokitten.github.io/latest/Dracula/admin.css">
+text: <link rel="stylesheet" href="https://oreokitten.github.io/latest/Dracula/admin.css">
 After this build the panel, you can find information of how to do that scroll down
 
 After that just reload your panel and the theme is applied.
