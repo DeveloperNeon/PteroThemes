@@ -16,7 +16,7 @@ Create a file called main.css in /var/www/pterodactyl/resources/scripts
 
 In that file put this text
 
-@import url(https://oreokitten.github.io/latest/Dracula/user.css);
+@import url(https://oreokitten.github.io/latest/dark-n-purple/user.css);
 
 
 After that edit the file index.tsx in /var/www/pterodactyl/resources/scripts
@@ -32,7 +32,7 @@ After that just reload your panel and the theme is applied.
 In the file admin.blade.php in /var/www/pterodactyl/resources/views/layouts/
 
 On line 36 put the text
-<link rel="stylesheet" href="https://oreokitten.github.io/latest/Dracula/admin.css">
+<link rel="stylesheet" href="https://oreokitten.github.io/latest/dark-n-purple/admin.css">
 
 After this build the panel, you can find information of how to do that scroll down
 
