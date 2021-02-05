@@ -105,4 +105,4 @@ This theme is a recolor of the panel that you can edit, more information here
 [Dracula 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Dracula)
 ![Preview](./preview/Dracula.png)
 ![Preview](./preview/Dracula2.png)
-## If you have suggestions or issues dm me on discord, Lellis#9405
+## If you have suggestions or issues dm me on discord, Oreo#0949
