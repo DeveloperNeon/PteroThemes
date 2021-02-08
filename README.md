@@ -11,7 +11,7 @@ How do i use them?
 You simple follow the instructions below, mainly consisting of two or three changes you need to make before you build your panel.
 
 ## Install Theme
-#User Side
+# User Side
 Create a file called main.css in /var/www/pterodactyl/resources/scripts
 
 In that file put this text
@@ -28,7 +28,7 @@ After this build the panel, you can find information of how to do that scroll do
 
 After that just reload your panel and the theme is applied.
 
-#Admin Side
+# Admin Side
 In the file admin.blade.php in /var/www/pterodactyl/resources/views/layouts/
 
 On line 36 put the text
@@ -51,7 +51,7 @@ TIP
 
 You may have to add sudo to the following commands if you are not root.
 
-#Using Nodesource
+# Using Nodesource
 # Ubuntu/Debian
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
@@ -62,7 +62,7 @@ yum install -y nodejs # CentOS 7
 dnf install -y nodejs # CentOS 8
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking node -v
 
-#Using Node Version Manager(opens new window)
+# Using Node Version Manager(opens new window)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 nvm install node
@@ -70,7 +70,7 @@ nvm alias default node
 nvm use node
 node -v should say 12.20.0 or newer
 
-#Install Yarn and Panel Dependencies
+# Install Yarn and Panel Dependencies
 # Install yarn
 npm i -g yarn
 
