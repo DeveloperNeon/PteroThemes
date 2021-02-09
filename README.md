@@ -12,27 +12,27 @@ You simple follow the instructions below, mainly consisting of two or three chan
 
 ## Install Theme
 # User Side
-Create a file called main.css in /var/www/pterodactyl/resources/scripts
+Create a file called main.css in `/var/www/pterodactyl/resources/scripts`
 
 In that file put this text
 
-@import url(https://oreokitten.github.io/latest/dark-n-purple/user.css);
+```@import url(https://oreokitten.github.io/latest/dark-n-purple/user.css);```
 
 
 After that edit the file index.tsx in /var/www/pterodactyl/resources/scripts
 
 On line 6 at the end of the imports add this
 
-import './main.css';
+```import './main.css';```
 After this build the panel, you can find information of how to do that scroll down
 
 After that just reload your panel and the theme is applied.
 
 # Admin Side
-In the file admin.blade.php in /var/www/pterodactyl/resources/views/layouts/
+In the file admin.blade.php in `/var/www/pterodactyl/resources/views/layouts/`
 
 On line 36 put the text
-<link rel="stylesheet" href="https://oreokitten.github.io/latest/dark-n-purple/admin.css">
+```<link rel="stylesheet" href="https://oreokitten.github.io/latest/dark-n-purple/admin.css">```
 
 After this build the panel, you can find information of how to do that scroll down
 
@@ -53,34 +53,34 @@ You may have to add sudo to the following commands if you are not root.
 
 # Using Nodesource
 # Ubuntu/Debian
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt install -y nodejs
+`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+`apt install -y nodejs`
 
 # CentOS
-curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
-yum install -y nodejs # CentOS 7
-dnf install -y nodejs # CentOS 8
+`curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -`
+`yum install -y nodejs # CentOS 7`
+`dnf install -y nodejs # CentOS 8`
 By now, you should have NodeJS 12 installed. Make sure this is the case by checking node -v
 
 # Using Node Version Manager(opens new window)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
 
-nvm install node
-nvm alias default node
-nvm use node
-node -v should say 12.20.0 or newer
+`nvm install node`
+`nvm alias default node`
+`nvm use node`
+`node -v` should say 12.20.0 or newer
 
 # Install Yarn and Panel Dependencies
 # Install yarn
-npm i -g yarn
+`npm i -g yarn`
 
 # Now you need to make sure you are in the panel directory
-cd /var/www/pterodactyl
+`cd /var/www/pterodactyl`
 
 # Installs panel build dependencies
-yarn install
+`yarn install`
 #Build Panel
-Run this in your panel directory to apply changes (usually /var/www/pterodactyl)
+Run this in your panel directory to apply changes (usually` /var/www/pterodactyl`)
 
 # Build panel
 yarn build:production
